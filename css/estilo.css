@@ -1,0 +1,123 @@
+.main {
+    background: radial-gradient(circle, rgb(0, 0, 0), rgb(50, 50, 50), rgb(0, 0, 0), rgb(50, 50, 50), rgb(0, 0, 0), rgb(50, 50, 50), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas: "header header header"
+        "nav nav nav"
+        "cont1 cont2 cont3"
+        "cont4 cont4 cont4"
+        "footer footer footer";
+}
+
+.header {
+    padding: 5px;
+    border: 5px solid rgb(160, 160, 160);
+    border-radius: 15px;
+    grid-area: header;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    justify-content: center;
+    grid-area: nav;
+}
+
+.cont1 {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px;
+    border-radius: 15px;
+    grid-area: cont1;
+}
+
+.cont2 {
+    margin-top: 15%;
+    padding: 0px;
+    border: 5px;
+    border-radius: 15px;
+    grid-area: cont2;
+}
+
+.cont3 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    border-radius: 15px;
+    grid-area: cont3;
+}
+.cont4{
+    padding: 0 10% 0 10%;
+    grid-area: cont4;
+    text-align: justify;
+}
+
+.footer {
+    color: white;
+    padding: 5px;
+    border: 5px solid rgb(160, 160, 160);
+    border-radius: 15px;
+    grid-area: footer;
+    text-align: center;
+}
+
+
+
+
+
+/*FOOTER STYLE*/
+.bt{
+    fill: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+/*IMG STYLE*/
+.carousel-inner{
+    border-radius: 25px;
+}
+/*NAV STYLE*/
+.container-fluid{
+    background-color: rgb(160, 160, 160);
+    border-radius: 10px;
+    font-size: 25px;
+}
+.navbar{
+    padding: 0px;
+    margin: 20px;
+    border-radius: 15px;   
+}
+.dropdown-menu{
+    background-color: rgb(160, 160, 160);
+    border-radius: 10px;
+}
+@media screen and (max-width:650px){
+    .main{
+        grid-template-columns: 1fr;
+        grid-template-areas: "header"
+                             "nav"
+                             "cont1"
+                             "cont2"
+                             "cont3"
+                             "cont4"
+                             "footer"
+                             ;
+    }
+    .container-fluid{
+        font-size: 17px;
+    }
+    .cont2, .cont3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

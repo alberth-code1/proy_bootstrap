@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberth's Web</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="main">
+        <!--CABECERA-->
+        <div class="header">
+            <H1><strong>ALBERTH's WEB</strong></H1>
+        </div>
+        <!--MENU-->
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">HOME</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="pages/biography.html">Biografía</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Lenguajes de Programación
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#highLvl">Alto Nivel</a></li>
+                                    <li><a class="dropdown-item" href="#lowLvl">Bajo Nivel</a></li>
+                                    <li><a class="dropdown-item" href="#scripting">Scripting</a></li>
+                                    <li><a class="dropdown-item" href="#dataBase">Base de Datos</a></li>
+                                    <li><a class="dropdown-item" href="#devWeb">Desarrollo Web</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#other">Otros Importantes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/framework.html">Frameworks</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/api.html">APIs</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <h3 style="padding: 0 10% 0 10%;">Bienvenido a mi pagina web, acá encontraras algo de información a cerca de
+                herramientas que
+                los desarrolladores utilizamos para crear software de calidad en una labor diaria.
+            </h3>
+        </div>
+        <!--CONTENIDO 1-->
+        <div class="cont1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/angular (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/laravel (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/springboot (1).png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/flutter (1).jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/API (1).png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!--CONTENIDO 2-->
+        <div class="cont2">
+            <div class="accordion" style="color: black;" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" style="color: white" ; id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>¿Qué es el Desarrollo Web?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Algunas preguntas frecuentes a cerca del desarrollo generan muchas dudas a la hora
+                                desarrollar una aplicacion, una de las preguntas mas frecuentes que podemos escuchar es:
+                                "¿QUÉ ES EL DESARROLLO WEB?"</p>
+                            <p>El desarrollo web es el <strong>proceso de creación, diseño y mantenimiento de sitios y
+                                    aplicaciones web</strong>. Incluye todo, desde el diseño de la interfaz de usuario
+                                (UI) hasta la programación del backend que procesa datos y gestiona la lógica de la
+                                aplicación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>¿Qué es Front-end?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Es la <strong>parte visual de un sitio web o aplicación</strong> que interactúa directamente
+                            con los usuarios. Los lenguajes más comunes para el desarrollo front-end son HTML, CSS y
+                            JavaScript.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>¿Qué es Back-end?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Se refiere a la <strong>parte del servidor</strong>, que maneja la lógica, las bases de
+                            datos y la autenticación. Se desarrollan con lenguajes como PHP, Python, Ruby, Node.js,
+                            entre otros.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CONTENIDO 3-->
+        <div class="cont3">
+            <div class="card" style="width: 18rem;">
+                <img src="img/WowWarWithin.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>Wow WarWithin</strong></h4>
+                    <p class="card-text"><strong>World of Warcraft: The War Within</strong> es la próxima expansión para el juego de rol multijugador masivo en línea World of Warcraft programada para lanzarse el 2024. Es parte de la nueva trilogía, la saga del alma del mundo, dirigida por Chris Metzen.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Ver enlaces de juego
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">WarWithin Links</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Youtube: <a href="https://youtu.be/y7tGkDQkyek">Cinematica de Juego</a><br>
+                                    WebSite: <a href="https://thewarwithin.blizzard.com/es-es/">Compra el Juego Ya!!!</a><br>
+                                    BattleNet: <a href="https://us.shop.battle.net/es-es/product/world-of-warcraft-the-war-within">Descarga BattleNet</a>
+                                    <p><strong><h3>Requisitos minimos</h3></strong>
+                                        <strong>Sistema operativo</strong>
+                                        Windows® 7 de 64 bits (Service Pack 1)
+                                        <strong>Procesador</strong>
+                                        Procesador de 4 núcleos a 3,0 GHz Intel® Core™ Haswell o AMD Ryzen™ Zen de 4.ª generación <br>
+                                        <strong>Vídeo</strong>
+                                        GPU de 3 GB compatible con DirectX® 12 NVIDIA® GeForce® serie GTX 900 AMD™ GCN de 4.ª generación Tarjetas gráficas Intel® Iris® Xe   Modelo de sombreador 5 o superior <br>
+                                        <strong>Memoria</strong>
+                                        8 GB de RAM <br>
+                                        <strong>Almacenamiento</strong>
+                                        128 GB de espacio disponible en disco de estado sólido (SSD) <br>
+                                        <strong>Internet</strong>
+                                        Conexión a Internet de banda ancha <br>
+                                        <strong>Entrada</strong>
+                                        Teclado y ratón <br>
+                                        <strong>Resolución</strong>
+                                        Resolución de pantalla de 1280x720 como mínimo</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary"
+                                        data-bs-dismiss="modal">Cerrar Pestaña</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CONTENIDO TEXTO-->
+        <div class="cont4">
+            <br>
+            <h2>LENGUAJES DE PROGRAMACIÓN</h2>
+            <p> Los lenguajes de programación son herramientas fundamentales en el desarrollo de software, permitiendo a
+                los desarrolladores escribir instrucciones que las computadoras pueden ejecutar. Aquí hay un resumen de
+                algunos de los lenguajes de programación más populares y sus usos: <br><br>
+            <h3 id="highLvl">LENGUAJE DE ALTO NIVEL</h3>
+            <h4>Phyton:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo web (front-end y back-end), aplicaciones móviles, juegos.<br>
+                <strong> -características:</strong> Sintaxis clara y fácil de aprender, gran cantidad de bibliotecas.
+                <br><br>
+            </p>
+            <h4>JavaScript:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo web, ciencia de datos, inteligencia artificial, automatización.
+                <br>
+                <strong> -características:</strong> Lenguaje interpretado, permite programación asíncrona, ampliamente
+                utilizado en la creación de interfaces de usuario. <br><br>
+            </p>
+            <h4>Java:</h4>
+            <p>
+                <strong> -uso:</strong> Aplicaciones empresariales, desarrollo de Android, sistemas embebidos.
+                <br>
+                <strong> -características:</strong> Orientado a objetos, multiplataforma (JVM), robusto y seguro.
+            </p>
+            <h4>C#:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo de aplicaciones de Windows, videojuegos (con Unity), aplicaciones web
+                (con ASP.NET).
+                <br>
+                <strong> -características:</strong> Orientado a objetos, soporta programación funcional, parte del
+                ecosistema de Microsoft. <br><br>
+            </p>
+            <h4>Ruby:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo web (especialmente con Ruby on Rails), automatización, prototipado.
+                <br>
+                <strong> -características:</strong> Enfocado en la simplicidad y productividad, sintaxis elegante.
+                <br><br>
+            </p>
+            <h3 id="lowLvl">LENGUAJE DE BAJO NIVEL</h3>
+            <h4>C:</h4>
+            <p>
+                <strong> -uso:</strong>Desarrollo de sistemas operativos, sistemas embebidos, software de alto
+                rendimiento.<br>
+                <strong> -características:</strong> Control total sobre el hardware, eficiente en el uso de recursos.
+                <br><br>
+            </p>
+            <h4>C++:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo de software de sistemas, videojuegos, aplicaciones de alto
+                rendimiento.<br>
+                <strong> -características:</strong> Extensión de C con programación orientada a objetos, permite
+                manipulación de memoria. <br><br>
+            </p>
+            <h3 id="scripting">SCRIPTING</h3>
+            <h4>PHP (Hypertext Preprocessor):</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo web del lado del servidor, creación de sitios dinámicos.<br>
+                <strong> -características:</strong> Fácil de aprender, integrado con bases de datos, ampliamente
+                utilizado en el desarrollo de CMS como WordPress. <br><br>
+            </p>
+            <h4>Perl:</h4>
+            <p>
+                <strong> -uso:</strong> Análisis de texto, administración de sistemas, desarrollo web.<br>
+                <strong> -características:</strong> Fuerte capacidad de manipulación de texto, fácil de usar para
+                scripts rápidos. <br><br>
+            </p>
+            <h3 id="dataBase">BASE DE DATOS</h3>
+            <h4>SQL (Structured Query Language):</h4>
+            <p>
+                <strong> -uso:</strong> Gestión de bases de datos relacionales, consultas, inserciones,
+                actualizaciones.<br>
+                <strong> -características:</strong> Lenguaje declarativo, permite manipulación y recuperación de datos.
+                <br><br>
+            </p>
+            <h3 id="devWeb">DESARROLLO WEB</h3>
+            <h4>HTML (HyperText Mark Language):</h4>
+            <p>
+                <strong> -uso:</strong> Estructuración de contenido en la web.<br>
+                <strong> -características:</strong> Lenguaje de marcado, define la estructura de las páginas web.
+                <br><br>
+            </p>
+            <h4>CSS (Cascading Style Sheets):</h4>
+            <p>
+                <strong> -uso:</strong> Estilización de páginas web.<br>
+                <strong> -características:</strong> Permite definir el diseño, color y fuente del contenido HTML.
+                <br><br>
+            </p>
+            <h3 id="other">OTROS LENGUAJES IMPORTANTES</h3>
+            <h4>Swift:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo de aplicaciones para iOS y macOS.<br>
+                <strong> -características:</strong> Seguro, rápido, moderno y fácil de usar.<br><br>
+            </p>
+            <h4>Kotlin:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo de aplicaciones Android, aplicaciones del lado del servidor.<br>
+                <strong> -características:</strong> Interoperable con Java, moderno, conciso. <br><br>
+            </p>
+            <h4>Go (Golang):</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo de aplicaciones de red, microservicios.<br>
+                <strong> -características:</strong> Compilado, concurrencia fácil, sintaxis simple.<br><br>
+            </p>
+            <h4>Rust:</h4>
+            <p>
+                <strong> -uso:</strong> Desarrollo de sistemas, aplicaciones de alto rendimiento.<br>
+                <strong> -características:</strong> Enfoque en la seguridad de la memoria y la concurrencia.<br><br>
+            </p>
+        </div>
+        <!--PIE DE PAGINA-->
+        <div class="footer">
+            <p>&copy; 2024 Alberth's Web. Todos los derechos reservados.</p>
+            <a href="https://www.facebook.com/profile.php?id=61557485882771" target="blank" aria-label="Facebook"><img
+                    class="bt fb" src="icons/facebook.svg"></a>
+            <a href="https://www.instagram.com/alberth.snow" target="_blank" aria-label="Twitter"><img class="bt ig"
+                    src="icons/instagram.svg"></a>
+            <a href="https://wa.me/59177214626" target="_blank" aria-label="Instagram"><img class="bt wa"
+                    src="icons/whatsapp.svg"></a>
+            <a href="https://www.linkedin.com/in/alberth-guarachi-arguata-334797268/" target="_blank"
+                aria-label="LinkedIn"><img class="bt li" src="icons/linkedin.svg"></a>
+            <p></p>
+        </div>
+    </div>
+</body>
+
+</html>

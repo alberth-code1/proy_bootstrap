@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIs</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo2.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!--CABECERA-->
+        <div class="header">
+            <H1><strong>ALBERTH's WEB</strong></H1>
+        </div>
+        <!--MENU-->
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">HOME</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="biography.html">Biografía</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Lenguajes de Programación
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="../index.html#highLvl">Alto Nivel</a></li>
+                                    <li><a class="dropdown-item" href="../index.html#lowLvl">Bajo Nivel</a></li>
+                                    <li><a class="dropdown-item" href="../index.html#scripting">Scripting</a></li>
+                                    <li><a class="dropdown-item" href="../index.html#dataBase">Base de Datos</a></li>
+                                    <li><a class="dropdown-item" href="../index.html#devWeb">Desarrollo Web</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="index.html#other">Otros Importantes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="framework.html">Frameworks</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="api.html">APIs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h3 style="padding: 0 40% 0 40%;">APIs
+            </h3>
+        </div>
+        <!--CONT TEXTO-->
+        <div class="cont3" style="text-align: justify;">
+            <img src="../img/API.png" class="card-img-top" alt="...">
+            <br><br>
+            <p>Las <strong>API</strong> (Interfaz de Programación de Aplicaciones, por sus siglas en inglés) son un conjunto de reglas y protocolos que permiten que diferentes aplicaciones se comuniquen entre sí. Actúan como intermediarios que permiten que un software acceda a funcionalidades o datos de otro software sin necesidad de conocer los detalles de implementación de este último. A continuación, se describen los conceptos clave relacionados con las API.</p>
+            <h3>Características de las APIs</h3>
+            <p>
+                <strong>1. Interoperabilidad:</strong> Las API permiten que diferentes sistemas, aplicaciones o servicios se conecten y funcionen juntos, independientemente de su tecnología subyacente. <br>
+
+                <strong>2. Abstracción:</strong> Las API ocultan la complejidad de la implementación del sistema subyacente, proporcionando una interfaz sencilla para interactuar con funcionalidades específicas. <br>
+
+                <strong>3. Estándares de Comunicación:</strong> Generalmente, las API utilizan estándares de comunicación como HTTP/HTTPS, lo que permite la interacción a través de la web. <br>
+
+                <strong>4. Reutilización de Funcionalidades:</strong> Permiten que los desarrolladores reutilicen funcionalidades existentes en lugar de construir todo desde cero, lo que ahorra tiempo y esfuerzo. <br>
+
+                <strong>5. Seguridad:</strong> Las API pueden incluir mecanismos de autenticación y autorización para garantizar que solo los usuarios y aplicaciones autorizadas puedan acceder a sus recursos.
+            </p>
+            <h3>Tipos de API</h3>
+            <p>
+                <strong>1. API Web:</strong> Permiten la interacción entre aplicaciones a través de la web. Utilizan protocolos como HTTP/HTTPS y son muy comunes en aplicaciones modernas. Ejemplo: RESTful APIs, GraphQL APIs. <br>
+
+                <strong>2. API de Sistema:</strong> Facilitan la comunicación entre componentes de un sistema operativo o entre sistemas operativos. Por ejemplo, las API de Windows permiten que las aplicaciones interactúen con el sistema operativo. <br>
+
+                <strong>3. API de Biblioteca:</strong> Ofrecen funciones y métodos que los desarrolladores pueden utilizar al crear aplicaciones. Ejemplo: API de la biblioteca estándar de un lenguaje de programación como Python o Java. <br>
+
+                <strong>4. API de Servicio:</strong> Permiten la interacción con servicios de terceros, como servicios en la nube (Amazon Web Services, Google Cloud) o plataformas de pago (Stripe, PayPal).
+            </p>
+            <h3>Ejemplos de API</h3>
+            <p>
+                <strong>- Integración de Servicios:</strong> Usar la API de Google Maps para integrar mapas en una aplicación web o móvil. <br>
+                <strong>- Autenticación:</strong> Utilizar la API de autenticación de terceros (como OAuth) para permitir a los usuarios iniciar sesión en una aplicación. <br>
+                <strong>- Recuperación de Datos:</strong> Usar una API REST para obtener datos de una base de datos o un servicio web, como consultar el clima desde una API de meteorología. <br>
+                <strong>- Automatización:</strong> Utilizar APIs para automatizar tareas en servicios como redes sociales (ej. publicar en Twitter automáticamente).
+            </p>
+            <h3>Ejemplo de API REST</h3>
+            <p>
+                Una API RESTful es un tipo de API web que sigue principios de arquitectura REST (Representational State Transfer). Aquí hay un ejemplo simple de cómo podría funcionar una API REST: <br><br>
+            </p>
+            <table class="table">
+                <tr>
+                    <td><strong>- GET /api/usuarios:</strong></td>
+                    <td>Obtiene una lista de usuarios.</td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr>
+                    <td><strong>- GET /api/usuarios/1:</strong></td>
+                    <td>Obtiene los detalles de un usuario específico con ID 1.</td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr>
+                    <td><strong>- POST /api/usuarios:</strong></td>
+                    <td>Crea un nuevo usuario.</td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr>
+                    <td><strong>- PUT /api/usuarios/1:</strong></td>
+                    <td>Actualiza la información del usuario con ID 1.</td>
+                </tr>
+            </table>
+        
+            <table class="table">
+                <tr>
+                    <td><strong>- DELETE /api/usuarios/1:</strong></td>
+                    <td>Elimina al usuario con ID 1.</td>
+                </tr>
+            </table>
+
+        </div>
+        <!--PIE DE PAGINA-->
+        <div class="footer">
+            <p>&copy; 2024 Alberth's Web. Todos los derechos reservados.</p>
+            <a href="https://www.facebook.com/profile.php?id=61557485882771" target="blank" aria-label="Facebook"><img
+                    class="bt fb" src="../icons/facebook.svg"></a>
+            <a href="https://www.instagram.com/alberth.snow" target="_blank" aria-label="Twitter"><img class="bt ig"
+                    src="../icons/instagram.svg"></a>
+            <a href="https://wa.me/59177214626" target="_blank" aria-label="Instagram"><img class="bt wa"
+                    src="../icons/whatsapp.svg"></a>
+            <a href="https://www.linkedin.com/in/alberth-guarachi-arguata-334797268/" target="_blank"
+                aria-label="LinkedIn"><img class="bt li" src="../icons/linkedin.svg"></a>
+            <p></p>
+        </div>
+    </div>
+</body>
+
+</html>
